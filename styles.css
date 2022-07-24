@@ -1,0 +1,28 @@
+#root {
+  display: flex;
+  height: 100vh;
+}
+.root__list {
+  width: 40%;
+  background-color: aqua;
+  padding: 10px;
+}
+.root__item {
+  width: 60%;
+  background-color: tomato;
+  padding: 10px;
+}
+p {
+  margin-right: auto;
+}
+li {
+  display: flex;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.edit {
+  margin-right: 10px;
+}
