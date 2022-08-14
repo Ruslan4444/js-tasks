@@ -1,0 +1,33 @@
+{
+  "name": "js-tasks",
+  "version": "1.0.0",
+  "description": "JS-tasks",
+  "main": "index.js",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruslan4444/js-tasks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ruslan4444/js-tasks/issues"
+  },
+  "homepage": "https://github.com/Ruslan4444/js-tasks#readme",
+  "dependencies": {
+    "joi": "^17.6.0",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "parcel": "^2.7.0"
+  }
+}
